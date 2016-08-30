@@ -23,7 +23,6 @@ makeCacheMatrix <- function(x = numeric()) {
                 # since the matrix is assigned a new value, flush the cache
                 cache <<- NULL
         }
-
         # returns the stored matrix
         getMatrix <- function() {
                 x
